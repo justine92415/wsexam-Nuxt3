@@ -1,0 +1,97 @@
+/* BASE */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eee;
+  color: #091a28;
+}
+
+.dark-mode body {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+
+.sepia-mode body {
+  background-color: #433422;
+  color: #f1e7d0;
+}
+
+.dark-mode .card {
+  color: #091a28;
+}
+
+.dark-mode .navigation .navigation__background {
+  background-image: radial-gradient(#091a28, #333);
+  color: #ebf4f1;
+}
+
+.sepia-mode .navigation .navigation__background {
+  background-image: radial-gradient(#433422, #333);
+  color: #f1e7d0;
+}
+
+/* MIXIN */
+/* LAYOUT */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,7 @@
+@mixin grid($num, $s: null) {
+    @for $i from 1 through $num {
+        .col#{$s}-#{$i} {
+            width: calc($i / $num) * 100%;
+        }
+    }
+}
