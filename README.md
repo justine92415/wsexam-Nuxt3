@@ -1,5 +1,9 @@
 ## Demo：網址 [https://nuxt3-project-ba9bc.web.app/](https://nuxt3-project-ba9bc.web.app/)
 
+## 預覽
+
+<img src="/public/demo.gif">
+
 1. Nuxt3
 2. 未完成
 3. 將 header、card、input 拆成 component

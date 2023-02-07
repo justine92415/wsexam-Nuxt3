@@ -11,8 +11,8 @@ body {
 }
 
 .sepia-mode body {
-  background-color: #433422;
-  color: #f1e7d0;
+  background-color: #f1e7d0;
+  color: #091a28;
 }
 
 .dark-mode .card {
@@ -25,8 +25,8 @@ body {
 }
 
 .sepia-mode .navigation .navigation__background {
-  background-image: radial-gradient(#433422, #333);
-  color: #f1e7d0;
+  background-image: radial-gradient(#f1e7d0, #333);
+  color: #091a28;
 }
 
 /* MIXIN */
