@@ -1,15 +1,11 @@
-1. 用 Vue Cli 或 Nuxt 完成以下功能
-2. 以 scss 撰寫內容樣式
-3. 應用 component 功能
-4. 應用 computed 功能
-5. 製作 輸入類型 text, radio, select 、同一 component 切換 prop 來改變對應的輸入類型，並可套用 v-model
-6. 可切換頁面
-7. 設定頁面 title, description
-8. 設定 Global 參數、讓頁面的顏色、主題會隨著更換
-9. 串接一組列表資料 api
+## Demo：網址 [](https://nuxt3-project-ba9bc.web.app/)
 
-    [https://mocki.io/fake-json-api](https://mocki.io/fake-json-api)
-
-10. 程式架構做到最大的沿用性、維護性，並於 Readme 說明你的想法
-11. 使用 Firebase Hosting，提供連結給我們進行瀏覽
-12. 提供 Github 程式碼
+1. Nuxt3
+2. 未完成
+3. header、card、input
+4. 搜尋姓名、性別篩選、以及 Loading 狀態
+5. 同 3. 沒有做樣式
+6. 點擊 detail 可進入到該用戶的個人頁
+7. 使用 <Head>、<Title>、<Meta> 標籤來設定不同頁的 title 及 description
+8. 在 scss 設定不同色彩模式的參數
+9. 使用 axios 串接 mocki.io 的假 API，僅串接此頁沒有做樣式
